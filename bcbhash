@@ -1,0 +1,31 @@
+import hashlib
+import datetime
+ 
+mot = input("entrer votre chaine de caractere a hasher: ")
+
+
+print (".......haschage MD5........")
+
+res = hashlib.md5(mot.encode())
+md5 = res.digest()
+print("[+]hashage md5: ",md5)
+
+print("......haschage hexadecimal.....")
+
+
+hex = res.hexdigest()
+print("[+]valeur hexadecimale: ",hex)
+
+
+print (".....codage ascii......")
+
+
+res = ''.join(format(ord(i), '08b') for i in mot)
+print("[+]la valeur binaire est: ",str(res))
+
+
+
+print(datetime.datetime.now())
+
+print("by christ bowel")
+
