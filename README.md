@@ -11,14 +11,17 @@ Il répose sur le bruteforcing, le script prend une wordlist et à chaque ligne 
 # commande pour Exécution sur terminal 
 
 • cloner le référenciel à l'zide de gît
-``git clone https://github.com/christbowhash.git`|
+``git clone https://github.com/christbowhash.git``
 
 •aceder au répertoire 
+
 ``cd christbowhash``
 
 • Exécuter le programme si tout les modules requis sont installés, au cas contraire faire d'abord
+
 ``pip install pyfiglet``
-``Python crack_the_hash.py`|
+
+``Python crack_the_hash.py``
 
 # modules requis
 
