@@ -1,13 +1,14 @@
 # christbowhash
-hashé et coder une chaîne de caractère de votre choix
 
-Très simple d'utilisation
 
-Tu lances le script , puis tu entres ta chaîne de caractère et le script lui te génere le hash md5,la valeur en ASCII, la valeur hexadécimal
+Dehashe un hash md5, sha-1, sha-256 par bruteforcing
 
-Pour l'exécuter sur votre terminal il suffit de taper ces commandes
+# Principe
 
-#commandes
+
+Il répose sur le bruteforcing, le script prend une wordlist et à chaque ligne de la wordlist il le hash et comparé le hash génère à celui fourni par l'utilisateur
+
+#commande pour Exécution sur terminal 
 
 git clone https://github.com/christbowel/christbowhash
 
@@ -15,14 +16,15 @@ git clone https://github.com/christbowel/christbowhash
 cd christbowhash 
 
 
-Python bcbhash 
+Python crack_the_hash.py
+
+#modules requis
+
+•pyfiglet ( pip install pyfiglet)
 
 
-Et il s'exécutera 
 
-My website : www.christbowel.mystrikingly.com
+My website : www.christbowel.ml
 
-PayPal : christbowel6@gmail.com
-
-© Christ Bowel
+© ChristBowel ( CTF player, Bug hunter)
 
